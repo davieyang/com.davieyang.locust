@@ -30,4 +30,4 @@ class WebsiteUser(HttpLocust):
 
 if __name__ == '__main__':
     import os
-    os.system("locust -f D:\PythonPrograms\PerformanceLocust\LeadsCloud\Leadscloud.py --host=https://admin.leadscloud.com/Front-Vue")
+    os.system("locust -f D:\PythonPrograms\PerformanceLocust\LeadsCloud\Leadscloud.py --master --host=https://admin.leadscloud.com/Front-Vue")
